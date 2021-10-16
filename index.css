@@ -6,12 +6,12 @@
 
  .body{
     max-width: 1600px;
+    position: absolute;
  }
 
  .body .content {
     color: whitesmoke;
     top: 30%;
     left: 32%;
-    position: absolute;
  }
  
