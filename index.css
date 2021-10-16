@@ -8,8 +8,8 @@
    border: 1px #000000;
    padding: 7px;
    border-radius:50%;
-   -moz-border-radius:50%;
-   -webkit-border-radius:50%;
+   width: 100px;
+   height: 100px;
  }
  .body{
     max-width: 1600px;
