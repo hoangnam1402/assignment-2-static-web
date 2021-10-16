@@ -4,6 +4,13 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+ .avatar{
+   border: 1px #000000;
+   padding: 7px;
+   border-radius:50%;
+   -moz-border-radius:50%;
+   -webkit-border-radius:50%;
+ }
  .body{
     max-width: 1600px;
     position: absolute;
