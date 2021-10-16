@@ -5,20 +5,66 @@
 }
 
  .avatar{
-   border: 1px #000000;
    padding: 7px;
    border-radius:50%;
-   width: 100px;
-   height: 100px;
- }
- .body{
-    max-width: 1600px;
-    position: absolute;
+   width: 80px;
+   height: 80px;
+   cursor: pointer;
  }
 
- .body .content {
-    color: whitesmoke;
-    top: 30%;
-    left: 32%;
+ .main{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   background: #fff8b4;
+   position: relative;
  }
- 
+
+ .nav{
+   display: flex;
+   width: 84%;
+   margin: auto;
+   padding: 20px 0;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .nav ul li {
+   display: inline-block;
+   list-style: none;
+   margin: 10px 20px;
+ }
+ .nav ul li a{
+   text-decoration: none;
+   color: #000;
+   font-weight: bold;
+ }
+ .nav ul li a:hover{
+   color: red;
+ }
+
+ .intro{
+   margin-left: 8%;
+   margin-top: 15%;
+ }
+ .intro h1{
+   font-size: 50px;
+   color: #212121;
+   margin-bottom: 20px;
+ }
+ .intro span{
+   color: rgb(78, 95, 255);
+ }
+ .intro p{
+   color: #555;
+   line-height: 22px;
+ }
+ .intro a{
+   background: #212121;
+   padding: 10px 28px;
+   text-decoration: none;
+   font-weight: bold;
+   color: #fff;
+   display: inline-block;
+   margin: 30px 0;
+   border-radius: 5px;
+ }
