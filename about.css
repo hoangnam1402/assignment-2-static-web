@@ -46,3 +46,18 @@
  nav ul li a:hover{
    color: red;
  }
+ 
+ .intro{
+  margin-left: 40%;
+  margin-top: 10%;
+ }
+ .intro button{
+  background: #212121;
+  padding: 20px 100px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+ }
